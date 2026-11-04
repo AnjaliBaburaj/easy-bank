@@ -1,3 +1,10 @@
-service: easy-bank
-runtime: python314
-runtime: nodejs20
+runtime: python312
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+
+  - url: /(.*)
+    static_files: \1
+    upload: (.*)
