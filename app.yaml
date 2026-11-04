@@ -1,2 +1,3 @@
-service: second-app
+service: easy-bank
 runtime: python314
+https://github.com/AnjaliBaburaj/Rock-paper-scissor/blob/master/app.yaml
