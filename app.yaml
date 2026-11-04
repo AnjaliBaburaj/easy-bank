@@ -1,2 +1,2 @@
 service: second-app
-runtime: 
+runtime: python314
